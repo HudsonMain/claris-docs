@@ -1,0 +1,15 @@
+[
+  {"query": "how do i set up a backup schedule in filemaker server", "should_trigger": true},
+  {"query": "how do i install a lets encrypt ssl certificate on FM server", "should_trigger": true},
+  {"query": "how do i check the filemaker server event log for errors", "should_trigger": true},
+  {"query": "how do i configure filemaker server to host databases for remote users", "should_trigger": true},
+  {"query": "how do i set up an AI model server on filemaker server", "should_trigger": true},
+  {"query": "how do i enable ODBC connections on FM server", "should_trigger": true},
+  {"query": "how do i monitor connected clients on filemaker server", "should_trigger": true},
+  {"query": "fms admin console is not loading — how do i troubleshoot", "should_trigger": true},
+  {"query": "how do i write a comprehensive security policy for my filemaker deployment", "should_trigger": false},
+  {"query": "what are best practices for encrypting FM databases at rest", "should_trigger": false},
+  {"query": "filemaker security hardening checklist for compliance audit", "should_trigger": false},
+  {"query": "how do i automate filemaker server administration using the admin api", "should_trigger": false},
+  {"query": "how do i connect to filemaker from an external app via REST", "should_trigger": false}
+]

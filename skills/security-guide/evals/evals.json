@@ -1,0 +1,13 @@
+[
+  {"query": "i need a security hardening checklist for my filemaker deployment before a compliance audit", "should_trigger": true},
+  {"query": "what are best practices for encrypting FM databases at rest", "should_trigger": true},
+  {"query": "how should i architect my filemaker security for a HIPAA-compliant deployment", "should_trigger": true},
+  {"query": "what network ports should i close to harden filemaker server", "should_trigger": true},
+  {"query": "how do i protect my filemaker solution from unauthorized access — overview of all layers", "should_trigger": true},
+  {"query": "what are the authentication best practices for a multi-user FM deployment", "should_trigger": true},
+  {"query": "how do i install a let's encrypt certificate on filemaker server", "should_trigger": false},
+  {"query": "how do i configure oauth on filemaker server step by step", "should_trigger": false},
+  {"query": "how do i set a privilege set to read-only in filemaker pro", "should_trigger": false},
+  {"query": "how do i restrict which users can log in to my FM database", "should_trigger": false},
+  {"query": "how do i enable SSL on FM server through the admin console", "should_trigger": false}
+]

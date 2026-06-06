@@ -1,0 +1,12 @@
+[
+  {"query": "how do i use the filemaker data migration tool to move data into a new version of my file", "should_trigger": true},
+  {"query": "what command line syntax does the FM DMT use", "should_trigger": true},
+  {"query": "i redesigned my filemaker schema and need to migrate production data to the new clone — how", "should_trigger": true},
+  {"query": "how does the data migration tool handle container field data", "should_trigger": true},
+  {"query": "what are the requirements before running the FM data migration tool", "should_trigger": true},
+  {"query": "how do i import data from excel into filemaker", "should_trigger": false},
+  {"query": "how do i export filemaker records to CSV", "should_trigger": false},
+  {"query": "how do i apply schema changes to many FM files at once using FMUpgradeTool", "should_trigger": false},
+  {"query": "how do i back up a filemaker database", "should_trigger": false},
+  {"query": "how do i import records from one FM file to another using a script", "should_trigger": false}
+]

@@ -1,0 +1,14 @@
+[
+  {"query": "how do i use ExecuteSQL in filemaker to join two tables and return matching records", "should_trigger": true},
+  {"query": "what SQL functions are supported by filemaker's ExecuteSQL", "should_trigger": true},
+  {"query": "how do i write a SELECT with a WHERE clause using ExecuteSQL in FM", "should_trigger": true},
+  {"query": "can i use INSERT or UPDATE statements in filemaker via ODBC", "should_trigger": true},
+  {"query": "what are the reserved words i should avoid as field names in FM because of SQL", "should_trigger": true},
+  {"query": "how do i parameterize an ExecuteSQL query in filemaker to avoid sql injection", "should_trigger": true},
+  {"query": "how do i use GROUP BY and aggregate functions in a filemaker SQL query", "should_trigger": true},
+  {"query": "how do i set up ODBC connections to filemaker server from windows", "should_trigger": false},
+  {"query": "how do i query filemaker data via odata from power bi", "should_trigger": false},
+  {"query": "how do i create a summary field in filemaker to show totals", "should_trigger": false},
+  {"query": "how do i sort and find records in filemaker using scripts", "should_trigger": false},
+  {"query": "how do i use the List() function in a calculation", "should_trigger": false}
+]

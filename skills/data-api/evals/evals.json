@@ -1,0 +1,15 @@
+[
+  {"query": "how do i authenticate with the filemaker data api and get a session token", "should_trigger": true},
+  {"query": "what's the REST endpoint to create a new record via the FM data api", "should_trigger": true},
+  {"query": "how do i run a filemaker script via the data api", "should_trigger": true},
+  {"query": "how do i upload a file to a container field using the data api", "should_trigger": true},
+  {"query": "what error codes does the filemaker data api return and what do they mean", "should_trigger": true},
+  {"query": "how do i perform a find/search via the FM data api", "should_trigger": true},
+  {"query": "i'm building a web app that needs to read FM records — how do i use the data api", "should_trigger": true},
+  {"query": "how do i delete a record using the filemaker REST api", "should_trigger": true},
+  {"query": "how do i query filemaker data from power bi using odata", "should_trigger": false},
+  {"query": "how do i automate filemaker server backups with the admin api", "should_trigger": false},
+  {"query": "how do i write a filemaker script that calls an external API", "should_trigger": false},
+  {"query": "how do i set up ODBC for filemaker server", "should_trigger": false},
+  {"query": "how do i run a sql query against filemaker data", "should_trigger": false}
+]

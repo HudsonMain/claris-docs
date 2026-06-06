@@ -1,0 +1,14 @@
+[
+  {"query": "how do i create a kanban view in claris studio", "should_trigger": true},
+  {"query": "what field types are available in claris studio", "should_trigger": true},
+  {"query": "how do i add a calculation field in studio", "should_trigger": true},
+  {"query": "how do i connect my studio app to an external data source", "should_trigger": true},
+  {"query": "how do i set up SSO with okta in claris studio", "should_trigger": true},
+  {"query": "what functions are available in claris studio calculations — i need something like IF()", "should_trigger": true},
+  {"query": "how do i manage user roles and permissions in claris studio", "should_trigger": true},
+  {"query": "how do i create a form layout in filemaker pro", "should_trigger": false},
+  {"query": "how do i create a calculation field in filemaker pro", "should_trigger": false},
+  {"query": "how do i set up identity providers for filemaker server", "should_trigger": false},
+  {"query": "how do i build a web app that reads from filemaker", "should_trigger": false},
+  {"query": "what's the difference between claris studio and filemaker pro", "should_trigger": false}
+]

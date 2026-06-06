@@ -1,10 +1,12 @@
 ---
 name: filemaker-pro
 description: |
-  Use when the user asks about FileMaker Pro — scripting, script steps,
-  functions, calculations, layouts, relationships, fields, security, data
-  entry, import/export, charts, reporting, printing, developer tools, AI
-  features, or any general FileMaker Pro development question.
+  Use when the user asks about FileMaker Pro (FM Pro or FMP) — scripting,
+  script steps, functions, calculations, layouts, relationships, fields,
+  security, data entry, import/export, charts, reporting, printing,
+  developer tools, AI features, or any general FileMaker Pro development
+  question. This is the catch-all skill for FileMaker (FM) development — use
+  it for any FM question that doesn't clearly belong to another skill.
 ---
 
 # Claris FileMaker Pro Help

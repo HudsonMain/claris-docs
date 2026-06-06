@@ -1,0 +1,17 @@
+[
+  {"query": "how do i write a loop script in filemaker that iterates over all records in a found set", "should_trigger": true},
+  {"query": "what's the syntax for the List() function in FM", "should_trigger": true},
+  {"query": "how do i create a portal to show related records in filemaker", "should_trigger": true},
+  {"query": "i'm getting error 401 in my filemaker script — what does that mean", "should_trigger": true},
+  {"query": "how do i use the While() function in a filemaker calculation", "should_trigger": true},
+  {"query": "how do i conditionally format a field based on its value in FM pro", "should_trigger": true},
+  {"query": "how do i use the AI features in filemaker pro to call a language model", "should_trigger": true},
+  {"query": "how do i create a summary report in FM with subtotals by category", "should_trigger": true},
+  {"query": "what script step do i use to send an email from filemaker", "should_trigger": true},
+  {"query": "how do i set up relationships between tables in filemaker", "should_trigger": true},
+  {"query": "how do i connect to filemaker from python using the data api", "should_trigger": false},
+  {"query": "how do i set up ssl certificates on filemaker server", "should_trigger": false},
+  {"query": "how do i access filemaker from a web browser without fm pro installed", "should_trigger": false},
+  {"query": "how do i use ExecuteSQL in filemaker — i want to join two tables", "should_trigger": true},
+  {"query": "how do i create an account programmatically in filemaker using a script", "should_trigger": true}
+]

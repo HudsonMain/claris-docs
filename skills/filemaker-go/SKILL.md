@@ -1,9 +1,12 @@
 ---
 name: filemaker-go
 description: |
-  Use when the user asks about FileMaker Go — iOS/iPadOS client, mobile
-  development, designing for touch, offline access, device sensors, iOS App
-  SDK, building custom Xcode apps with FileMaker.
+  Use when the user asks about FileMaker Go (FM Go) — iOS/iPadOS client,
+  mobile development, designing for touch, offline access, device sensors,
+  iOS App SDK, building custom Xcode apps with FileMaker. Always use this
+  skill for any question about using FileMaker on iPhone or iPad, or building
+  a custom iOS app with FM, even if the user just says "FM Go" or "FileMaker
+  on my iPad."
 ---
 
 # Claris FileMaker Go Help
@@ -26,8 +29,10 @@ Using FileMaker Go — opening files, entering data, working offline, device fea
 → `references/go-help.md`
 
 ### Go Development Guide
-Designing solutions for mobile — layout considerations, scripts, device sensors, offline sync, best practices.
+Designing solutions for mobile — scripts, device sensors, offline sync, Go vs Pro feature differences, best practices.
 → `references/go-development.md`
+
+**Note on layout design for mobile:** The Go Development Guide does not include layout design pages. For questions about designing FileMaker layouts for iPhone/iPad screens (Screen Stencils, Touch themes, auto-resize, best practices), use the FileMaker Pro skill's `references/pro-layouts.md` — specifically `screen-stencils.md` and `best-practices-designing-layouts.md`.
 
 ### iOS App SDK Guide
 Building custom iOS apps with the FileMaker iOS App SDK — Xcode project setup, configuration, distribution.

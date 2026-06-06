@@ -3,7 +3,9 @@ name: claris-studio
 description: |
   Use when the user asks about Claris Studio — web-based app platform, views
   (forms, spreadsheets, kanbans), Studio field types, Studio calculation
-  functions, data sources, teams, identity providers.
+  functions, data sources, teams, identity providers. Always use this skill
+  for any Claris Studio question, even if the user just says "Studio" without
+  the "Claris" prefix.
 ---
 
 # Claris Studio Help

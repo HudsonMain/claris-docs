@@ -1,0 +1,13 @@
+[
+  {"query": "how do i use the filemaker developer tool to bind my solution for distribution", "should_trigger": true},
+  {"query": "how do i remove admin access from a filemaker file using developer utilities", "should_trigger": true},
+  {"query": "how do i create a kiosk mode app with the FM developer tool", "should_trigger": true},
+  {"query": "what are the command line parameters for the filemaker developer tool", "should_trigger": true},
+  {"query": "i want to package my FM solution so end users can't modify the schema — how", "should_trigger": true},
+  {"query": "how do i distribute a filemaker runtime application", "should_trigger": true},
+  {"query": "how do i use the admin api to remove filemaker server admin access", "should_trigger": false},
+  {"query": "how do i install filemaker pro on windows", "should_trigger": false},
+  {"query": "how do i use the app upgrade tool to apply patches", "should_trigger": false},
+  {"query": "how do i set up privilege sets in filemaker to restrict user access", "should_trigger": false},
+  {"query": "how do i convert a filemaker 12 file to the latest format", "should_trigger": false}
+]

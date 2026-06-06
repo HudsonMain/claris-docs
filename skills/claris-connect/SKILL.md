@@ -1,9 +1,15 @@
 ---
 name: claris-connect
 description: |
-  Use when the user asks about Claris Connect — workflow automation, creating
-  flows, triggers and actions, connectors (Slack, Google, Salesforce, etc.),
-  connecting FileMaker to third-party services, Apple School Manager integration.
+  This is the Claris Connect reference skill. Claris Connect is Claris's
+  iPaaS/workflow automation platform (like Zapier or Make) for connecting
+  FileMaker to external services. Invoke when a user asks about Claris
+  Connect by name, wants to automate FileMaker workflows via an external
+  automation platform, needs to set up flows, triggers, or actions, or asks
+  about connectors: Slack, Stripe, Salesforce, Google, Microsoft, Outlook,
+  Teams, AWS, Twilio, and 80+ others. Also covers Apple School Manager
+  integration. Do not use for native FileMaker scripting, calculations, or
+  HTTP requests made directly from within FileMaker scripts.
 ---
 
 # Claris Connect Help

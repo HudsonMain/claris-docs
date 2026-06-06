@@ -1,0 +1,14 @@
+[
+  {"query": "how do i open a filemaker file on my ipad using FM go", "should_trigger": true},
+  {"query": "how do i use the camera from a filemaker go script on iphone", "should_trigger": true},
+  {"query": "how do i design a filemaker layout that works well on a phone screen", "should_trigger": true},
+  {"query": "how do i work offline in filemaker go and sync when back online", "should_trigger": true},
+  {"query": "i want to build a custom ios app using the filemaker iOS app sdk with xcode", "should_trigger": true},
+  {"query": "how do i use location/GPS data from FM go in a calculation", "should_trigger": true},
+  {"query": "what gestures does filemaker go support on ipad", "should_trigger": true},
+  {"query": "how do i access filemaker from a web browser on my phone", "should_trigger": false},
+  {"query": "how do i make a filemaker layout mobile-friendly for webdirect", "should_trigger": false},
+  {"query": "how do i design a responsive layout in filemaker pro for different screen sizes", "should_trigger": false},
+  {"query": "how do i use the get(device) function in filemaker", "should_trigger": false},
+  {"query": "how do i create a filemaker android app", "should_trigger": false}
+]

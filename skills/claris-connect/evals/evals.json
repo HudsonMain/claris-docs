@@ -1,0 +1,16 @@
+[
+  {"query": "how do i create a flow in claris connect that sends a slack message when a new FM record is created", "should_trigger": true},
+  {"query": "i want to connect filemaker to salesforce — is there a claris connect connector for that", "should_trigger": true},
+  {"query": "how do i set up a webhook trigger in claris connect", "should_trigger": true},
+  {"query": "what connectors are available in claris connect for google services", "should_trigger": true},
+  {"query": "how do i pass data between steps in a claris connect flow", "should_trigger": true},
+  {"query": "i need to automate sending emails from filemaker when a record changes — using claris connect", "should_trigger": true},
+  {"query": "how do i use the apple school manager integration in claris connect", "should_trigger": true},
+  {"query": "connecting FM to stripe for payment processing via workflow automation", "should_trigger": true},
+  {"query": "how do i call a REST API from a filemaker script", "should_trigger": false},
+  {"query": "what's the Insert from URL script step syntax in filemaker", "should_trigger": false},
+  {"query": "how do i send email from filemaker pro using the send mail script step", "should_trigger": false},
+  {"query": "how do i set up filemaker server to host databases for multiple users", "should_trigger": false},
+  {"query": "how do i create a calculation field in filemaker", "should_trigger": false},
+  {"query": "how do i use the OpenAI API from a filemaker script", "should_trigger": false}
+]

@@ -1,9 +1,13 @@
 ---
 name: filemaker-server
 description: |
-  Use when the user asks about FileMaker Server — Admin Console, hosting
-  databases, backups, schedules, SSL certificates, external authentication,
-  web publishing, ODBC/JDBC, monitoring, logs, AI model hosting, performance.
+  Use when the user asks about FileMaker Server (FM Server or FMS) — Admin
+  Console, hosting databases, backups, schedules, SSL certificates, external
+  authentication, web publishing, ODBC/JDBC, monitoring, logs, AI model
+  hosting, performance. Always use this skill for operational server
+  questions (how to configure, host, schedule, or monitor FM Server). For
+  holistic security best-practice checklists spanning the whole platform,
+  use the security-guide skill instead.
 ---
 
 # Claris FileMaker Server Help

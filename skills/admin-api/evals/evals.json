@@ -1,0 +1,18 @@
+[
+  {"query": "how do i list all databases hosted on my filemaker server using the admin api", "should_trigger": true},
+  {"query": "i need to close a database on FM server remotely via REST — what endpoint do i call", "should_trigger": true},
+  {"query": "what's the base URL for the FM admin api on filemaker cloud vs on-prem server", "should_trigger": true},
+  {"query": "i want to create a schedule via the admin api to back up my databases every night", "should_trigger": true},
+  {"query": "how do i authenticate with the FileMaker Server Admin API to get a token", "should_trigger": true},
+  {"query": "using admin api to disconnect a client session from filemaker server", "should_trigger": true},
+  {"query": "automate filemaker server management with REST calls — where do i start", "should_trigger": true},
+  {"query": "how do i disconnect clients from a hosted FM database programmatically", "should_trigger": true},
+  {"query": "how do i create a new record in a filemaker database from my web app", "should_trigger": false},
+  {"query": "what's the syntax for ExecuteSQL in filemaker pro", "should_trigger": false},
+  {"query": "how do i set up ssl on filemaker server through the admin console", "should_trigger": false},
+  {"query": "i want to connect tableau to my filemaker data", "should_trigger": false},
+  {"query": "how do i run a script in filemaker from an external web service", "should_trigger": false},
+  {"query": "setting up a backup schedule in filemaker server admin console", "should_trigger": false},
+  {"query": "what ports does filemaker server use for client connections", "should_trigger": false},
+  {"query": "how do i configure oauth authentication for filemaker server", "should_trigger": false}
+]

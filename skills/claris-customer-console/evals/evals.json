@@ -1,0 +1,14 @@
+[
+  {"query": "how do i add a new user to my claris team in the customer console", "should_trigger": true},
+  {"query": "i need to change someone's license status from licensed to unlicensed in the claris portal", "should_trigger": true},
+  {"query": "how do i create a user group in the claris customer console", "should_trigger": true},
+  {"query": "where do i manage my fm cloud subscription and billing", "should_trigger": true},
+  {"query": "how do i remove a team manager in the claris customer console", "should_trigger": true},
+  {"query": "what's the difference between a team manager and a regular user in claris id", "should_trigger": true},
+  {"query": "how do i invite someone to my claris id team", "should_trigger": true},
+  {"query": "how do i add a user account inside filemaker pro itself", "should_trigger": false},
+  {"query": "how do i configure oauth for filemaker server", "should_trigger": false},
+  {"query": "how do i set privilege sets in filemaker", "should_trigger": false},
+  {"query": "how do i add an account to my FM database", "should_trigger": false},
+  {"query": "setting up external authentication in filemaker server", "should_trigger": false}
+]

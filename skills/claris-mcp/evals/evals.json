@@ -1,0 +1,14 @@
+[
+  {"query": "how do i set up claris mcp so claude desktop can read my filemaker data", "should_trigger": true},
+  {"query": "what MCP tools are available for filemaker through the claris mcp server", "should_trigger": true},
+  {"query": "how do i connect an AI assistant to my FM database using MCP", "should_trigger": true},
+  {"query": "i want to let claude run scripts in my filemaker solution — is that possible with MCP", "should_trigger": true},
+  {"query": "what are best practices for using claris MCP in production", "should_trigger": true},
+  {"query": "getting started with claris mcp — how do i configure it", "should_trigger": true},
+  {"query": "how do i give an LLM read access to my filemaker database", "should_trigger": true},
+  {"query": "how do i use the Data API to read filemaker records from a web app", "should_trigger": false},
+  {"query": "how do i configure filemaker server to allow REST access", "should_trigger": false},
+  {"query": "how do i write a script in filemaker that calls an AI model", "should_trigger": false},
+  {"query": "what AI functions are available in filemaker pro calculations", "should_trigger": false},
+  {"query": "how do i set up filemaker server for ODBC connections", "should_trigger": false}
+]

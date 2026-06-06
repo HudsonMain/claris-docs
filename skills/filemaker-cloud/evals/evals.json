@@ -1,0 +1,14 @@
+[
+  {"query": "how do i upload my filemaker database to FM cloud", "should_trigger": true},
+  {"query": "how do i set up my claris id team for filemaker cloud", "should_trigger": true},
+  {"query": "what's the process for getting started with filemaker cloud as a new team admin", "should_trigger": true},
+  {"query": "how do i add databases to my FM cloud deployment", "should_trigger": true},
+  {"query": "how does claris id authentication work with filemaker cloud", "should_trigger": true},
+  {"query": "how do i manage backups on filemaker cloud", "should_trigger": true},
+  {"query": "what's the difference between FM Cloud and FM Server for hosting databases", "should_trigger": true},
+  {"query": "how do i set up filemaker server on my own linux machine", "should_trigger": false},
+  {"query": "how do i configure ssl on filemaker server", "should_trigger": false},
+  {"query": "how do i host FM databases for my team using filemaker server on-prem", "should_trigger": false},
+  {"query": "how do i create a claris id account for a user in my FM database", "should_trigger": false},
+  {"query": "managing users in the claris customer console", "should_trigger": false}
+]

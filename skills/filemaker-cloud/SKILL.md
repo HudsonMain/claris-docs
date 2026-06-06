@@ -1,9 +1,11 @@
 ---
 name: filemaker-cloud
 description: |
-  Use when the user asks about FileMaker Cloud — Claris-hosted cloud service,
-  team setup, Claris ID authentication, cloud administration, uploading
-  databases to cloud.
+  Use when the user asks about FileMaker Cloud (FM Cloud) — Claris-hosted
+  cloud service, team setup, Claris ID authentication, cloud administration,
+  uploading databases to cloud. Always use this skill for questions about the
+  Claris-managed cloud hosting option, even if the user just says "FM Cloud"
+  or "hosting my FM file on Claris."
 ---
 
 # Claris FileMaker Cloud Help

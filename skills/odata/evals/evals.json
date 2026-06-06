@@ -1,0 +1,13 @@
+[
+  {"query": "how do i connect power bi to my filemaker database", "should_trigger": true},
+  {"query": "how do i use tableau to visualize data from FM server via odata", "should_trigger": true},
+  {"query": "what's the odata endpoint URL format for filemaker", "should_trigger": true},
+  {"query": "how do i filter odata results from filemaker using query parameters", "should_trigger": true},
+  {"query": "how do i enable odata on filemaker server", "should_trigger": true},
+  {"query": "how do i batch insert records into filemaker via the odata api", "should_trigger": true},
+  {"query": "how do i run a SQL query against filemaker from excel", "should_trigger": false},
+  {"query": "how do i use the filemaker data api to connect a web app", "should_trigger": false},
+  {"query": "how do i query filemaker data using ODBC from access", "should_trigger": false},
+  {"query": "how do i connect filemaker to google data studio", "should_trigger": false},
+  {"query": "how do i use ExecuteSQL in a filemaker calculation", "should_trigger": false}
+]

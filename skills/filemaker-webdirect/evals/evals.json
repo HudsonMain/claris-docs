@@ -1,0 +1,13 @@
+[
+  {"query": "how do i let users access my filemaker database from a web browser without installing anything", "should_trigger": true},
+  {"query": "how do i configure filemaker webdirect on my server", "should_trigger": true},
+  {"query": "what browsers are supported for filemaker webdirect", "should_trigger": true},
+  {"query": "how do i optimize performance for FM webdirect with many concurrent users", "should_trigger": true},
+  {"query": "how do i customize the webdirect login page with my company branding", "should_trigger": true},
+  {"query": "my filemaker webdirect connection keeps disconnecting — how do i fix that", "should_trigger": true},
+  {"query": "how do i build a public-facing web app using filemaker data", "should_trigger": false},
+  {"query": "how do i access filemaker from an ipad or iphone", "should_trigger": false},
+  {"query": "how do i use the filemaker data api to read records from a website", "should_trigger": false},
+  {"query": "how do i enable webdirect in the filemaker server admin console", "should_trigger": false},
+  {"query": "how do i design a filemaker layout that looks good in a browser", "should_trigger": false}
+]

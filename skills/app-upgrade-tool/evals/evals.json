@@ -1,0 +1,14 @@
+[
+  {"query": "how do i use FMUpgradeTool to apply a patch file to my filemaker database", "should_trigger": true},
+  {"query": "what command line parameters does the FM upgrade tool accept", "should_trigger": true},
+  {"query": "i'm trying to automate schema changes across multiple FM files using the upgrade tool", "should_trigger": true},
+  {"query": "what's the XML format for a patch file in the filemaker app upgrade tool", "should_trigger": true},
+  {"query": "how do i encrypt a patch file so clients can't read it", "should_trigger": true},
+  {"query": "i want to add a field to 200 FM databases using FMUpgradeTool — example command", "should_trigger": true},
+  {"query": "how do i migrate data from an old filemaker file to a new version", "should_trigger": false},
+  {"query": "how do i import records from a CSV into filemaker pro", "should_trigger": false},
+  {"query": "what's the difference between the data migration tool and the app upgrade tool", "should_trigger": false},
+  {"query": "how do i install filemaker pro on a new machine", "should_trigger": false},
+  {"query": "creating a backup schedule in FM server", "should_trigger": false},
+  {"query": "how do i script filemaker to export records as XML", "should_trigger": false}
+]
