@@ -1,0 +1,13 @@
+{
+  "name": "soliantconsulting",
+  "owner": {
+    "name": "Soliant Consulting"
+  },
+  "plugins": [
+    {
+      "name": "claris-docs",
+      "source": ".",
+      "description": "Claris product documentation navigator — fetches live help pages from help.claris.com for FileMaker Pro, Server, Cloud, Connect, Studio, and all Claris APIs and CLIs."
+    }
+  ]
+}

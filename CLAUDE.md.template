@@ -1,0 +1,19 @@
+For Claris/FileMaker questions, always consult the appropriate skill before answering from memory:
+
+- FileMaker Pro (scripting, functions, layouts, relationships, fields, security): `claris-docs:filemaker-pro`
+- FileMaker Server (deployment, Admin Console, schedules, backups, hosting): `claris-docs:filemaker-server`
+- FileMaker Cloud (setup, administration, cloud hosting): `claris-docs:filemaker-cloud`
+- FileMaker Go (mobile access, Go development, iOS App SDK): `claris-docs:filemaker-go`
+- FileMaker WebDirect (browser-based access, deployment): `claris-docs:filemaker-webdirect`
+- Claris Studio (views, fields, functions, teams): `claris-docs:claris-studio`
+- Claris Connect (workflow automation, connectors): `claris-docs:claris-connect`
+- Claris Customer Console (accounts, teams, subscriptions): `claris-docs:claris-customer-console`
+- Claris MCP (AI assistant integration with FileMaker): `claris-docs:claris-mcp`
+- Data API (REST API, authentication, CRUD, scripting): `claris-docs:data-api`
+- Admin API (server administration REST API): `claris-docs:admin-api`
+- OData (OData protocol, BI tool integration): `claris-docs:odata`
+- SQL Reference (ExecuteSQL, ODBC/JDBC syntax): `claris-docs:sql-reference`
+- Security Guide (encryption, hardening, compliance): `claris-docs:security-guide`
+- App Upgrade Tool (FMUpgradeTool, patch files): `claris-docs:app-upgrade-tool`
+- Data Migration Tool (DMT, migrating data between files): `claris-docs:data-migration-tool`
+- Developer Tool (Developer Utilities, binding, runtime): `claris-docs:developer-tool`
