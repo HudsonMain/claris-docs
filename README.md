@@ -9,8 +9,8 @@ These skills make Claude an authoritative source for Claris/FileMaker questions 
 Add the GitHub repo as a marketplace source, then install:
 
 ```
-/plugin marketplace add soliantconsulting/claris-docs
-/plugin install claris-docs@soliantconsulting
+/plugin marketplace add soliantconsulting/soliant-public-claude-plugins
+/plugin install claris-docs@soliant-public-claude-plugins
 ```
 
 Once installed, skills are available as `claris-docs:data-api`, `claris-docs:filemaker-pro`, etc. Skills also trigger automatically when Claude detects a relevant Claris/FileMaker question.
@@ -18,17 +18,17 @@ Once installed, skills are available as `claris-docs:data-api`, `claris-docs:fil
 ### Uninstalling
 
 ```
-/plugin uninstall claris-docs@soliantconsulting
+/plugin uninstall claris-docs@soliant-public-claude-plugins
 ```
 
 ### Updating
 
-Auto-update is off by default for third-party plugins. To enable it, run `/plugin`, go to the **Marketplaces** tab, select `soliantconsulting`, and toggle **Enable auto-update**. When enabled, Claude Code updates the plugin at startup and prompts you to run `/reload-plugins`.
+Auto-update is off by default for third-party plugins. To enable it, run `/plugin`, go to the **Marketplaces** tab, select `soliant-public-claude-plugins`, and toggle **Enable auto-update**. When enabled, Claude Code updates the plugin at startup and prompts you to run `/reload-plugins`.
 
 To update manually:
 
 ```
-/plugin marketplace update soliantconsulting
+/plugin marketplace update soliant-public-claude-plugins
 ```
 
 ### Local development
@@ -63,6 +63,16 @@ This loads the plugin for that session only and does not affect your installed v
 | `claris-docs:data-migration-tool` | DMT, data migration |
 | `claris-docs:developer-tool` | Developer Utilities, binding, runtime |
 
+## Project setup
+
+For FileMaker projects, copy `CLAUDE.md.template` into your project root as `CLAUDE.md` (or append it to an existing one):
+
+```sh
+cp /path/to/claris-docs/CLAUDE.md.template CLAUDE.md
+```
+
+This gives Claude explicit routing rules so it always consults the right skill before answering from memory — more reliable than auto-trigger alone.
+
 ## How it works
 
 Skills are navigators, not knowledge stores. They don't embed documentation content.
@@ -75,11 +85,16 @@ This means answers always reflect the current published docs.
 
 ## Updating references
 
-Reference files are an index of what's published at help.claris.com. When Claris adds, removes, or renames documentation pages, the references become stale — links may 404 or new content won't be discoverable. Run `update.sh` to resync:
+Reference files are an index of what's published at help.claris.com. When Claris adds, removes, or renames documentation pages, the references become stale — links may 404 or new content won't be discoverable. Run `update.py` to resync:
 
 ```sh
-./update.sh                          # fetches fresh llms-full.txt from Claris
-./update.sh snapshots/llms-full.txt  # uses a local snapshot
+python update.py                          # fetch fresh llms-full.txt from Claris
+```
+
+Or
+
+```sh
+python update.py snapshots/llms-full.txt  # use a local snapshot
 ```
 
 The script regenerates all `references/` files deterministically. Git diffs of these files show exactly what changed in Claris's docs.
@@ -90,8 +105,8 @@ The script regenerates all `references/` files deterministically. Git diffs of t
 
 **Reference file sizing** — each file targets ≤80 links as a guideline – strongly encouraged, but not a hard limit. Under 80, a single file is fine (the AI can scan it cheaply). Over 80, split along natural topic boundaries where it makes sense. Over 150, always split. Rationale: each link is ~30-35 tokens; very large unsplit files waste context and risk the AI picking wrong pages. Exception: when no meaningful sub-split exists (e.g. `Get` functions, which are a single flat category with no sub-grouping), keeping them in one file is preferable to an artificial split. `pro-func-get.md` (140 links) is a documented exception.
 
-**Link-list format** — reference files use the same `- [Title](URL)` format as the source `llms-full.txt`. Compact, clickable in editors, trivial to emit from update.sh.
+**Link-list format** — reference files use the same `- [Title](URL)` format as the source `llms-full.txt`. Compact, clickable in editors, trivial to emit from update.py.
 
-**Skills don't embed content** — Claris publishes LLM-friendly Markdown docs. Embedding them would create stale copies. Fetching live means one `update.sh` run keeps the index current while content is always fresh.
+**Skills don't embed content** — Claris publishes LLM-friendly Markdown docs. Embedding them would create stale copies. Fetching live means one `update.py` run keeps the index current while content is always fresh.
 
-**404 handling** — if a fetch fails, Claude tells the user the page may have moved and suggests running `update.sh`. Skills never silently fail.
+**404 handling** — if a fetch fails, Claude tells the user the page may have moved and suggests running `update.py`. Skills never silently fail.

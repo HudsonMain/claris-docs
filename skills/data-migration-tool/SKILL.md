@@ -18,7 +18,7 @@ The FileMaker Data Migration Tool (DMT) migrates data from one FileMaker file to
 
 1. Read `references/data-migration-tool.md` (relative to this skill's directory) to find the relevant page URL(s) for the user's question.
 2. Fetch the page(s) with `WebFetch` from the URL(s) listed there.
-3. If a fetch returns 404, tell the user the page may have moved and suggest running `update.sh` to refresh references.
+3. If a fetch returns 404, tell the user the page may have moved and suggest running `update.py` to refresh references.
 
 ## Note on multi-page answers
 

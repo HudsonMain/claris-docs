@@ -19,7 +19,7 @@ FileMaker Cloud is the Claris-managed cloud hosting service for FileMaker databa
 1. Identify the topic area below that matches the user's question.
 2. Read the corresponding `references/` file to find the relevant page URL(s).
 3. Fetch the page with `WebFetch` from the URL listed there.
-4. If a fetch returns 404, tell the user the page may have moved and suggest running `update.sh` to refresh references.
+4. If a fetch returns 404, tell the user the page may have moved and suggest running `update.py` to refresh references.
 
 ## Topic areas
 

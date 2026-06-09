@@ -19,4 +19,4 @@ The FileMaker Admin API is a REST API for administering FileMaker Server and Fil
 
 1. Read `references/admin-api.md` (relative to this skill's directory) to find the relevant page URL(s) for the user's question.
 2. Fetch the page with `WebFetch` from the URL listed there.
-3. If a fetch returns 404, tell the user the page may have moved and suggest running `update.sh` to refresh references.
+3. If a fetch returns 404, tell the user the page may have moved and suggest running `update.py` to refresh references.
