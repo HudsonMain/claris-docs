@@ -1,14 +1,20 @@
 {
   "name": "claris-docs",
   "displayName": "Claris Docs",
-  "description": "Claris product documentation navigator — fetches live help pages from help.claris.com for FileMaker Pro, Server, Cloud, Connect, Studio, and all Claris APIs and CLIs.",
+  "description": "Claris product documentation navigator \u2014 fetches live help pages from help.claris.com for FileMaker Pro, Server, Cloud, Connect, Studio, and all Claris APIs and CLIs.",
   "author": {
     "name": "Soliant Consulting",
     "url": "https://github.com/soliantconsulting"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "homepage": "https://github.com/soliantconsulting/claris-docs",
   "repository": "https://github.com/soliantconsulting/claris-docs",
-  "keywords": ["claris", "filemaker", "documentation", "filemaker-pro", "filemaker-server"]
+  "keywords": [
+    "claris",
+    "filemaker",
+    "documentation",
+    "filemaker-pro",
+    "filemaker-server"
+  ]
 }
