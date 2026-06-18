@@ -1,0 +1,63 @@
+name: Weekly Docs Update
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # Every Monday at 06:00 UTC
+  workflow_dispatch:       # Allow manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run update.py
+        run: python update.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Bump patch version
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          python - <<'EOF'
+          import json, pathlib, re
+
+          p = pathlib.Path(".claude-plugin/plugin.json")
+          data = json.loads(p.read_text())
+          ver = data["version"]
+
+          # Handle optional leading "v"
+          prefix = "v" if ver.startswith("v") else ""
+          clean = ver.lstrip("v")
+          parts = clean.split(".")
+          parts[-1] = str(int(parts[-1]) + 1)
+          data["version"] = prefix + ".".join(parts)
+
+          p.write_text(json.dumps(data, indent=2) + "\n")
+          print(f"Version bumped: {ver} -> {data['version']}")
+          EOF
+          git add .claude-plugin/plugin.json
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          NEW_VER=$(python -c "import json; print(json.load(open('.claude-plugin/plugin.json'))['version'])")
+          git commit -m "chore: weekly docs update — v${NEW_VER}"
+          git push
