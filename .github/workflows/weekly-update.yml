@@ -35,21 +35,21 @@ jobs:
         if: steps.changes.outputs.changed == 'true'
         run: |
           python - <<'EOF'
-          import json, pathlib, re
+          import re, pathlib
 
           p = pathlib.Path(".claude-plugin/plugin.json")
-          data = json.loads(p.read_text())
-          ver = data["version"]
+          text = p.read_text(encoding="utf-8")
 
-          # Handle optional leading "v"
-          prefix = "v" if ver.startswith("v") else ""
-          clean = ver.lstrip("v")
-          parts = clean.split(".")
-          parts[-1] = str(int(parts[-1]) + 1)
-          data["version"] = prefix + ".".join(parts)
+          match = re.search(r'"version":\s*"(v?)(\d+)\.(\d+)\.(\d+)"', text)
+          if not match:
+              raise ValueError("version field not found in plugin.json")
 
-          p.write_text(json.dumps(data, indent=2) + "\n")
-          print(f"Version bumped: {ver} -> {data['version']}")
+          prefix, major, minor, patch = match.group(1), match.group(2), match.group(3), match.group(4)
+          old_ver = f"{prefix}{major}.{minor}.{patch}"
+          new_ver = f"{prefix}{major}.{minor}.{int(patch) + 1}"
+
+          p.write_text(text.replace(f'"version": "{old_ver}"', f'"version": "{new_ver}"'), encoding="utf-8")
+          print(f"Version bumped: {old_ver} -> {new_ver}")
           EOF
           git add .claude-plugin/plugin.json
 
